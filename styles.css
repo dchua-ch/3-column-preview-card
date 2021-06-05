@@ -49,30 +49,50 @@ body {
     border-radius: 0 0 10px 10px;
 }
 
-.text-container > button {
+button {
     background-color: var(--headings-buttons-color); 
     border-radius: 1rem; 
     /* adding border:0; gives buttons a flat look */
     border: 0;
     height: 2rem;
     width : 6rem;
-   
-    
 }
-.sedan-button-span{
+
+.sedan-button {
     color: var(--sedan-background-color);
 }
 
+.sedan-button:hover {
+    background-color: var(--sedan-background-color);
+    color: var(--headings-buttons-color);
+    border: 1px;
+    border-style: solid;
+    border-color: var(--headings-buttons-color);
+}
 
-.suv-button-span {
+.suv-button {
     color: var(--suv-background-color);
 }
 
-.luxury-button-span{
-    color: var(--luxury-background-color);
-    
+.suv-button:hover {
+    background-color: var(--suv-background-color);
+    color: var(--headings-buttons-color);
+    border: 1px;
+    border-style: solid;
+    border-color: var(--headings-buttons-color);
 }
 
+.luxury-button {
+    color:var(--luxury-background-color);
+}
+
+.luxury-button:hover {
+    background-color: var(--luxury-background-color);
+    color: var(--headings-buttons-color);
+    border: 1px;
+    border-style: solid;
+    border-color: var(--headings-buttons-color);
+}
 
 
 
