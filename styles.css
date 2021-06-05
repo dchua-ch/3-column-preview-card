@@ -4,6 +4,22 @@
 /* font-family: 'Big Shoulders Display', cursive;
 font-family: 'Lexend Deca', sans-serif; */
 
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.text-container {
+    padding: 1rem;
+}
+
+
+
 
 
 .attribution { 
