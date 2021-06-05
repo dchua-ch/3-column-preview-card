@@ -15,23 +15,20 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--headings-buttons-color);
     /* height:100vh; this seems to screw up the height of flex-container
-    causes body to be shorter than flex-container*/
+    causes body to be shorter than flex-container. This in turn, causes top
+    of flex-container content to be cut-off*/
     width: 100vw;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:0;
+    /* margin:0; */
 }
 
 .flex-container {
     display:flex;
     flex-direction: column;
     width: 80%;
-    
-    
-
-    
 }
 
 .text-container {
@@ -118,3 +115,24 @@ button {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/* Work on desktop layout here */
+@media screen and (min-width: 650px){
+    body{
+        height: 100vh;
+    }
+
+    .flex-container{
+        flex-direction: row;
+    }
+
+    .sedan{
+        border-radius: 10px 0 0 10px;
+    }
+
+    .luxury{
+        border-radius: 0 10px 10px 0;
+    }
+
+}
+
