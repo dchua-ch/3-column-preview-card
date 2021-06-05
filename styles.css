@@ -34,7 +34,9 @@ body {
 
 .text-container {
     padding: var(--text-container-padding);
+    /* add additional padding to account for button */
     padding-bottom: calc(var(--text-container-padding)*2);
+    /* to make button positioning relative to .text-container */
     position: relative;
     
     
@@ -74,6 +76,10 @@ button {
     border: 0;
     height: 2rem;
     width : 6rem;
+
+    /* set position absolute and shift button to 1 padding above bottom of 
+    .text-container div. This will fix button's position when screen is resized.
+    Without this, unequal paragraph heights would affect button position */
     position:absolute;
     bottom: var(--text-container-padding);
    
