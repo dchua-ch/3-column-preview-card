@@ -10,6 +10,7 @@
     
 }
 
+
 body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--headings-buttons-color);
@@ -19,13 +20,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin:0;
 }
 
 .flex-container {
     display:flex;
     flex-direction: column;
     width: 80%;
-    height: 80%;
+
     
 }
 
