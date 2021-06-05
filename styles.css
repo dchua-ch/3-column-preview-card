@@ -33,12 +33,14 @@ body {
 
 .text-container {
     padding: 2.5rem;
+    position: relative;
 }
 
 .text-container > h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     color: var(--headings-buttons-color);
+    
 
 }
 
@@ -67,6 +69,10 @@ button {
     border: 0;
     height: 2rem;
     width : 6rem;
+    position:absolute;
+    bottom: 1rem;
+  
+   
 }
 
 .sedan-button {
