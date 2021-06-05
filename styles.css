@@ -8,6 +8,7 @@
     --headings-buttons-color: hsl(0, 0%, 95%);
     --attribution-accent-color: hsl(228, 45%, 44%);;
     --text-container-padding: 2.5rem;
+    --active-button-border: 2px;
     
 }
 
@@ -94,7 +95,7 @@ button {
 .sedan-button:hover {
     background-color: var(--sedan-background-color);
     color: var(--headings-buttons-color);
-    border: 1px;
+    border: var(--active-button-border);
     border-style: solid;
     border-color: var(--headings-buttons-color);
 }
@@ -106,7 +107,7 @@ button {
 .suv-button:hover {
     background-color: var(--suv-background-color);
     color: var(--headings-buttons-color);
-    border: 1px;
+    border: var(--active-button-border);
     border-style: solid;
     border-color: var(--headings-buttons-color);
 }
@@ -118,7 +119,7 @@ button {
 .luxury-button:hover {
     background-color: var(--luxury-background-color);
     color: var(--headings-buttons-color);
-    border: 2px;
+    border: var(--active-button-border);
     border-style: solid;
     border-color: var(--headings-buttons-color);
 }
