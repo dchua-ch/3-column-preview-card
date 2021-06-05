@@ -35,12 +35,12 @@ body {
     color:  var(--paragraph-color);
 }
 
-.sedans {
+.sedan {
     background-color: var(--sedan-background-color);
     border-radius: 10px 10px 0 0;
 }
 
-.suvs {
+.suv {
     background-color: var(--suv-background-color);
 }
 
