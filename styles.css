@@ -14,7 +14,8 @@
 body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--headings-buttons-color);
-    height:100vh;
+    /* height:100vh; this seems to screw up the height of flex-container
+    causes body to be shorter than flex-container*/
     width: 100vw;
     display:flex;
     flex-direction: column;
@@ -27,6 +28,8 @@ body {
     display:flex;
     flex-direction: column;
     width: 80%;
+    
+    
 
     
 }
