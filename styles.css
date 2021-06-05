@@ -1,7 +1,14 @@
 /* Work on mobile layout here */
 
-
-/* font-family: 'Big Shoulders Display', cursive;*/
+:root {
+    --sedan-background-color:hsl(31, 77%, 52%);
+    --suv-background-color:hsl(184, 100%, 22%);
+    --luxury-background-color:hsl(179, 100%, 13%);
+    --paragraph-color:hsla(0, 0%, 100%, 0.75);
+    --headings-buttons-color: hsl(0, 0%, 95%);
+    --attribution-accent-color: hsl(228, 45%, 44%);;
+    
+}
 
 body {
     font-family: 'Lexend Deca', sans-serif;
@@ -20,39 +27,37 @@ body {
 .text-container > h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
-    color: hsl(0, 0%, 95%);
+    color: var(--headings-buttons-color);
 
 }
 
 .text-container > p{
-    color: hsla(0, 0%, 100%, 0.75);
+    color:  var(--paragraph-color);
 }
 
 .sedans {
-    background-color: hsl(31, 77%, 52%);
+    background-color: var(--sedan-background-color);
     border-radius: 10px 10px 0 0;
 }
 
 .suvs {
-    background-color: hsl(184, 100%, 22%);
+    background-color: var(--suv-background-color);
 }
 
 .luxury{
-    background-color: hsl(179, 100%, 13%);
+    background-color: var(--luxury-background-color);
     border-radius: 0 0 10px 10px;
 }
 
-
-
-
+.text-container > button {
+    background-color: var(--headings-buttons-color);
+}
 
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
-    
-
-
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
