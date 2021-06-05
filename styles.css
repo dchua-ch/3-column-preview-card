@@ -135,7 +135,7 @@ button {
 }
 
 /* Work on desktop layout here */
-@media screen and (min-width: 650px){
+@media screen and (min-width: 700px){
     body{
         height: 100vh;
     }
