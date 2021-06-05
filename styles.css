@@ -1,8 +1,7 @@
 /* Work on mobile layout here */
 
 
-/* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif; */
+/* font-family: 'Big Shoulders Display', cursive;*/
 
 body {
     font-family: 'Lexend Deca', sans-serif;
@@ -15,8 +14,34 @@ body {
 }
 
 .text-container {
-    padding: 1rem;
+    padding: 2.5rem;
 }
+
+.text-container > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+
+}
+
+.text-container > p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
 
 
 
