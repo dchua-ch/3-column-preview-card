@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component solution
 
-Hi all, this is my second HTML/CSS project from [Frontend mentor] (https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
+Hi all, this is my second HTML/CSS project from [Frontend mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 ## Table of contents
 
 - [Frontend Mentor - 3-column preview card component solution](#frontend-mentor---3-column-preview-card-component-solution)
@@ -29,8 +29,11 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-*Mobile layout of 3 column preview card*
-![Mobile 3 column preview card](/images/3column_mobile_solution.png)
+*Mobile layout of 3 column preview card* 
+
+![Mobile 3 column preview card](/images/3column_mobile_solution.png) 
+ 
+ 
 
 *Desktop layout of 3 column preview card*
 ![Desktop 3 column preview card](/images/3column_desktop_solution.png)
