@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component solution
 
-Hi all, this is my second HTML/CSS project from [Frontend mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
+Hi all, this is my second HTML/CSS project from [Frontend mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). You can check out the project [here](https://dchua-ch.github.io/3-column-preview-card/). I've also detailed my process and learning journey below. Any feedback is welcome!
 ## Table of contents
 
 - [Frontend Mentor - 3-column preview card component solution](#frontend-mentor---3-column-preview-card-component-solution)
