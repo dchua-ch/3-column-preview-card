@@ -29,44 +29,35 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
+*Mobile layout of 3 column preview card*
 ![Mobile 3 column preview card](/images/3column_mobile_solution.png)
 
+*Desktop layout of 3 column preview card*
 ![Desktop 3 column preview card](/images/3column_desktop_solution.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://dchua-ch.github.io/3-column-preview-card/)
 
 ## My process
 
 ### Built with
 
+This project was built using a mobile-first workflow and CSS Flexbox. I completed the CSS styling for the mobile layout first before using a media query to construct the desktop layout.
+
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project helped me to practice my CSS Flexbox skills. In particular, I had some trouble with positioning the "Learn More" button. I found that, in desktop mode, the buttons may lose their horizontal alignment with each other when the viewport is resized by the user.
 
-To see how you can add code snippets, see below:
+![Screenshot of solution with buttons misaligned](/images/uneven_buttons.png)
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
