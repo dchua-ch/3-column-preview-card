@@ -66,11 +66,12 @@ This project helped me to practice my CSS Flexbox skills. In particular, I had s
  I found that, in desktop mode, the buttons may lose their horizontal alignment with each other when the viewport is resized by the user. This is shown in the screenshot below.
 
 ![Screenshot of solution with buttons misaligned](/images/uneven_buttons.png) 
+
 *Screenshot of solution with misaligned buttons in desktop mode* 
  
  To fix this problem, I set my button elements to position: absolute and the "text-container" class to position: relative. The text-container class is set to the three divs containing the three columns. This would allow me to set the position of the buttons relative to the text-container divs.
 
- I initially tried the following.
+ I initially tried setting bottom: 0; to the button elements. However, this shifted the buttons to the bottom border of the text-container divs. That is, the button positioning ignored the padding of the text-container divs. To solve this problem, I defined a CSS custom property called "--text-container-padding". I then set padding-bottom of the text-container div to 2 * var(--text-container-padding) and bottom of the button to var(--text-container padding). This fixed the vertical position of the buttons while providing the desired padding on the bottom of the text-container div.
 
 ```css
 .text-container {
