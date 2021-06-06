@@ -57,7 +57,7 @@ This project was built using a mobile-first workflow and CSS Flexbox. I complete
 
 ### What I learned
 
-This project helped me to practice my CSS Flexbox skills. In particular, I had some trouble with positioning the "Learn More" button. I highlight one of the challenges I faced while completing this project below.
+This project helped me to practice my CSS Flexbox skills. In particular, I had some trouble with positioning the "Learn More" button. I highlight the problem and my solution to this issue below.
 
 #### 1. Button alignment using absolute positioning
  
